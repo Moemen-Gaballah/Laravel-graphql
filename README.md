@@ -51,15 +51,15 @@
 - URL: http://localhost:8080
 - Server: `db`
 - Username: `jobs`
-- Password: `jobs`
-- Database: `jobs`
+- Password: `refactorian`
+- Database: `refactorian`
 
 ### Adminer
 - URL: http://localhost:9090
 - Server: `db`
-- Username: `jobs`
-- Password: `jobs`
-- Database: `jobs`
+- Username: `refactorian`
+- Password: `refactorian`
+- Database: `refactorian`
 
 ### Basic docker compose commands
 - Build or rebuild services
