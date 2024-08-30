@@ -22,7 +22,10 @@ type Query {
     tag(slug: String @eq, id: ID @eq): Tag @find
 
 #    opportunities: [Opportunity!]! @all
-    opportunities(orderBy: _ @orderBy(columns: ["created_at"])): [Opportunity!]! @all
+    opportunities(
+        orderBy: _ @orderBy(columns: ["created_at"])
+        hasTags: _ @whereHasConditions(columns: ["slug"])
+    ): [Opportunity!]! @all
 }
 
 "Account of a person who utilizes this application."

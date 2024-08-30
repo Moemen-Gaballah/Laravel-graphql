@@ -1,0 +1,11 @@
+# config=D:\play\Build a Job Board with Laravel, GraphQL, Nuxt and Apollo\graphql.config.yml!backend
+
+query Opportunities {
+    opportunities(
+        orderBy: [{ column: CREATED_AT, order: ASC }]
+        hasTags: { column: SLUG, operator: EQ, value: "laravel" }
+    ) {
+        id
+        job_title
+    }
+}

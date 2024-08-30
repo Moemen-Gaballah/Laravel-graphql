@@ -9,6 +9,7 @@
         "guzzlehttp/guzzle": "^7.2",
         "laravel/framework": "^11.0",
         "laravel/tinker": "^2.9",
+        "mll-lab/graphql-php-scalars": "^6.2",
         "mll-lab/laravel-graphiql": "^3.2",
         "nuwave/lighthouse": "^6.43",
         "php-open-source-saver/jwt-auth": "^2.4"

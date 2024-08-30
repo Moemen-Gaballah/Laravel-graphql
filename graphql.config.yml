@@ -1,0 +1,7 @@
+projects:
+#  frontend:
+#    schema: https://my.api.com/graphql
+#    documents: frontend/**/*.{graphql,js,ts}
+  backend:
+    schema: http://localhost/graphql
+    documents: /**/*.graphql
